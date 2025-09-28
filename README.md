@@ -9,9 +9,7 @@
 * **Natural Conversational Flow:** Powered by advanced AI, conversations with EVA feel fluid and realistic, not robotic.
 * **Immediate Feedback Loop:** No waiting for a report. Learn and adapt on the spot with instant, actionable advice.
 
-## ⚙️ How It Works & Tech Stack
-
-EVA's core pronunciation analysis is powered by cutting-edge AI research. We implemented **Zero-shot Cross-lingual Phoneme Recognition** to accurately detect and analyze phonemes across different languages, ensuring precise feedback.
+We implemented **Zero-shot Cross-lingual Phoneme Recognition** (https://arxiv.org/abs/2109.11680) to accurately detect and analyze phonemes across different languages, ensuring precise feedback in the pronounciation..
 
 ## 🎥 Video Demo
 
