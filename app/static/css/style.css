@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f8f9fa; */
+}
+
+.header, .footer {
+  background-color: #007bff;
+  color: white;
+}
+
+.mic-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+canvas {
+  border: 2px solid #007bff;
+}
+.rounded-box {
+  border: 2px solid #007bff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  min-height: 100px;
+}
+
+.tutor-response {
+  background-color: #e9ecef;
+}
+.character-block {
+  width: 80%; /* Adjust this value to change the overall size of the block */
+  max-width: 300px; /* Prevents the image from becoming too large on bigger screens */
+  aspect-ratio: 2 / 3; /* This maintains a square shape */
+  margin-bottom: 20px; /* Adds some space between the image and the mic button */
+  overflow: hidden;
+  border-radius: 15px; /* Optional: adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
+}
+.user-response {
+  background-color: #f8f9fa;
+}
+.rounded-box.misc-response {
+  color: white;
+}
+#animation {
+  width: 100%;
+  height: 200px;
+  border: 2px solid #007bff;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+.system-message {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Adjust the recording status styles to fit your new design */
+#recording-status {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
